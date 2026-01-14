@@ -40,12 +40,13 @@ React와 JavaSpring을 이용한 첫번째 프로젝트입니다.
 ### 백엔드
 - Spring Boot
 - Spring Security
-- JPA
+- JPA + Hibernate
 - JWT
+- SMTP
 
 ### DB
 - MySQL
 
 ### 인프라/배포
 - Docker
-- AWS (EC2, S3)
+- AWS (EC2, S3, RDS)
