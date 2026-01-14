@@ -1,0 +1,53 @@
+.link-like-text {
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.link-like-text:hover {
+  text-decoration: underline;
+}
+/* PostMainPageCss.css */
+.post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-category {
+  width: 20%;
+  color: #555;
+}
+
+.post-title {
+  width: 60%;
+}
+
+.post-date {
+  width: 20%; 
+  text-align: right;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.post-meta {
+  width: 20%;
+  text-align: right;
+  font-size: 0.9rem;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.post-author {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #444;
+}
+
+.post-date {
+  font-size: 0.8rem;
+}

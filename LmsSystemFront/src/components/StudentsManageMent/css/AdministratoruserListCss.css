@@ -1,0 +1,19 @@
+.professor-row td {
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+  cursor: pointer; /* ✅ 추가 */
+}
+
+.professor-row:hover td {
+  text-decoration: underline;
+}
+
+.user-row td {
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+  cursor: pointer; /* ✅ 추가 */
+}
+
+.user-row:hover td {
+  text-decoration: underline;
+}
